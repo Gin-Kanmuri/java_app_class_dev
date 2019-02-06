@@ -7,10 +7,12 @@ public class Pill{
 	MediaTracker mt;
 	Image pill;
 
-	char pillColor = 'b'; // b is blue r is red
-	int  damage = 0;
-	int  x_pill, y_pill;
-	int guardHeight = 40; int guardWidth = 8;
-	
+	char pillColor; // b is blue r is red
+	int point; //which player get point
+	int x_place;
+	int y_place;
+	boolean ballExist;
+	Dimension d;
+
 	
 }

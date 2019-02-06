@@ -24,6 +24,7 @@ public class SimpleBlock{
   int dx,dy;
   Dimension d; 
 
+
   public void init(Applet myApplet,myCanvas canvas){
     d = canvas.getSize();
     dx = SPEED;
